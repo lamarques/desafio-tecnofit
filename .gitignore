@@ -1,0 +1,69 @@
+# Arquivos de configuração do sistema
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+storage/logs/*
+
+# Cache e arquivos temporários
+storage/cache/*
+storage/sessions/*
+storage/temp/*
+runtime/
+
+# Vendor e dependências
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# IDE e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS específicos
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Testes
+coverage/
+.phpunit.result.cache
+phpunit.xml
+
+# Build e distribuição  
+dist/
+build/
+
+# Arquivos sensíveis
+*.pem
+*.key
+secrets/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Database
+*.sqlite
+*.db
+
+# Hyperf específicos
+runtime/container/
+runtime/hyperf.pid
+runtime/swoole.pid
